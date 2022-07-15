@@ -20,21 +20,14 @@ public class MainActivity extends AppCompatActivity {
         bt_move1 = findViewById(R.id.bt_a);
         bt_move2 = findViewById(R.id.bt_c);
 
-        bt_move1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this , MEJANGsceach.class);
-                startActivity(intent);//액티비티 이동
-            }
+        bt_move1.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this , storeSearch.class);
+            startActivity(intent);//액티비티 이동
         });
-        bt_move2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
 
-
-                Intent intent = new Intent(MainActivity.this , CARD.class);
-                startActivity(intent);//액티비티 이동
-            }
+        bt_move2.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this , CARD.class);
+            startActivity(intent);//액티비티 이동
         });
 
 

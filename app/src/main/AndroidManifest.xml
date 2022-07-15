@@ -17,7 +17,7 @@
             android:name=".CARD"
             android:exported="false" />
         <activity
-            android:name=".MEJANGsceach"
+            android:name=".storeSearch"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
