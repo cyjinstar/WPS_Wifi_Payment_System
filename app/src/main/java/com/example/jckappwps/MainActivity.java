@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
         bt_move2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+
                 Intent intent = new Intent(MainActivity.this , CARD.class);
                 startActivity(intent);//액티비티 이동
             }
